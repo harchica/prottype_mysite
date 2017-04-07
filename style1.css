@@ -14,8 +14,8 @@ body{
 	border-radius: 8px;
 	border-color: deepskyblue;
 	background-color: white;
-	margin: 100px;
-	float: inherit;
+	margin: 0 auto;
+	
 }
 #header{
 	background-color: powderblue;
@@ -30,7 +30,7 @@ a {
 #info{
 	color: white;
 	background-color: cornflowerblue;
-	width:14%;
+	width:17%;
 	padding: 10px;
 	text-align: center;
 	float:right;
@@ -41,7 +41,7 @@ a {
 #text{
 	color: white;
 	background-color: limegreen;
-	width:14%;
+	width:17%;
 	padding: 10px;
 	text-align: center;
 	float:right;
@@ -52,7 +52,7 @@ a {
 #memo{
 	color: white;
 	background-color: coral;
-	width:14%;
+	width:17%;
 	padding: 10px;
 	text-align: center;
 	float:right;
@@ -63,8 +63,9 @@ a {
 #link{
 	color:white;
 	background-color: mediumvioletred;
-	width:14%;
+	width:17%;
 	padding: 10px;
+	margin: 0px 3px 0px 0px;
 	text-align: center;
 	float:right;
 	
@@ -75,7 +76,7 @@ a {
 #index{
 	color: white;
 	background-color: #CC46F8;
-	width: 14%;
+	width: 17%;
 	padding: 10px;
 	text-align: center;
 	float: right;
@@ -83,13 +84,23 @@ a {
 #index a{
 	color: white;
 }
+
+.clearfix:after{
+	content:"";
+	clear: both;
+	display:block;
+}
+
 #nav {
-	width:14.5%;
-	height:80%;
+	width:100px;
+	height:100%;
 	margin: 1px 0px 0px 5px ;
 	float: left;
 	background-color:lightgray;
 }
+
+
+
 #article{
 	width:80%;
 	height:auto;
